@@ -6,7 +6,6 @@ El diagrama de casos d'ús de l'aplicació és el següent.
 
 Veiem la descripió de cada cas:
 
-
 ## Cas d'ús: SM01
 
 **Nom**: Afegir rectangle
@@ -161,3 +160,111 @@ S'ha creat una nova finestra amb l'escena.
 
 **Excepcions**
 *cap*
+
+##Cas d'ús: SM07
+
+**Nom**:Afegir cuadrat
+
+**Actors**: Usuari
+
+**Descripció**
+
+L' usuari afig un nou cuadrat a l'escena
+
+**Precondicions**:
+*cap*
+
+**Seqüència normal**
+
+1. L'usuari introdueix les propietats del cuadrat  (posició, tamany i color) en la CLI.
+2. El sistema afig el cuadrat a l'escena i informa l'usuari que s'ha inserit correctament.
+
+**Postcondicions**
+
+S'ha afegit un nou cuadrat a l'escena.
+
+**Excepcions**
+
+1.1. Si la sintaxi no es correspon a la del cuadrat, mostra un missatge avisant de l'error i mostrant la sintaxi correcta.
+1.2. Si la posició del cuadrat cau fora de l'àrea de dibuix, mostra un missatge d'error i no l'afig.
+
+##Cas d'ús: SM08
+
+**Nom**:Afegir el.lipses
+
+**Actors**: Usuari
+
+**Descripció**
+
+L' usuari afig un nou el.lipse a l'escena
+
+**Precondicions**:
+*cap*
+
+**Seqüència normal**
+
+1. L'usuari introdueix les propietats del el.lipse  (posició, tamany i color) en la CLI.
+2. El sistema afig el.lipse a l'escena i informa l'usuari que s'ha inserit correctament.
+
+**Postcondicions**
+
+S'ha afegit un nou el.lipse a l'escena.
+
+**Excepcions**
+
+1.1. Si la sintaxi no es correspon a la del el.lipse, mostra un missatge avisant de l'error i mostrant la sintaxi correcta.
+1.2. Si la posició del el.lipse cau fora de l'àrea de dibuix, mostra un missatge d'error i no l'afig.
+
+##Cas d'ús: SM09
+
+**Nom**:Afegir cercle
+
+**Actors**: Usuari
+
+**Descripció**
+
+L' usuari afig un nou cercle a l'escena
+
+**Precondicions**:
+*cap*
+
+**Seqüència normal**
+
+1. L'usuari introdueix les propietats del cercle  (posició, tamany i color) en la CLI.
+2. El sistema afig el cercle a l'escena i informa l'usuari que s'ha inserit correctament.
+
+**Postcondicions**
+
+S'ha afegit un nou cercle a l'escena.
+
+**Excepcions**
+
+1.1. Si la sintaxi no es correspon a la del cercle, mostra un missatge avisant de l'error i mostrant la sintaxi correcta.
+1.2. Si la posició del cercle cau fora de l'àrea de dibuix, mostra un missatge d'error i no l'afig.
+
+##Cas d'ús: SM10
+
+**Nom**:Afegir linies
+
+**Actors**: Usuari
+
+**Descripció**
+
+L' usuari afig una nova linia a l'escena
+
+**Precondicions**:
+*cap*
+
+**Seqüència normal**
+
+1. L'usuari introdueix les propietats de la linia  (posició, tamany i color) en la CLI.
+2. El sistema afig la linia a l'escena i informa l'usuari que s'ha inserit correctament.
+
+**Postcondicions**
+
+S'ha afegit una nova linia a l'escena.
+
+**Excepcions**
+
+1.1. Si la sintaxi no es correspon a la de la linia, mostra un missatge avisant de l'error i mostrant la sintaxi correcta.
+1.2. Si la posició de la linia cau fora de l'àrea de dibuix, mostra un missatge d'error i no l'afig.
